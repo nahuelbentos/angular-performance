@@ -15,6 +15,7 @@ export class LayoutComponent implements OnInit, OnDestroy {
 
   saleLists: EmployeeData[] = [];
   bLists: EmployeeData[] = [];
+  var;
 
   value: number;
   value$: Observable<number>;
@@ -27,6 +28,11 @@ export class LayoutComponent implements OnInit, OnDestroy {
     .pipe(
       tap( num => console.log(`Number: ${num}`))
     );
+    
+    this.var = 1;
+    this.var = '1';
+    
+    ;
   }
 
   ngOnInit() {
